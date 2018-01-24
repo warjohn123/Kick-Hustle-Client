@@ -1,33 +1,75 @@
-.login-form-container {
-  margin-top: 100px;
-  top: 30%;
-  left: 50%;
-  margin-right: -50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  width: 35%;
+.homepage-container {
+  width: 100%;
+  float: left;
 
-  .login-button {
-    background-color: #169BD5;
-    width: 100px;
-  }
+  .homepage-holder {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: auto;
+    padding: 0 10px;
+    margin-top: 100px;
 
-  .forgot-password {
-    color: #039BE5;
-    text-align: left;
-    margin-top: -5px;
-    margin-bottom: 1rem;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  
-  .forgot-password:hover {
-    color: #0279C3;
-  }
+    .register-form-container {
+      float: right;
 
-  .login-account-text {
-    margin-bottom: 30px;
+      textarea {
+        width: -webkit-fill-available;
+        width: -moz-available;
+        height: 90px;
+        resize: none;
+      }
+
+      .login-button {
+        width: -webkit-fill-available;
+        width: -moz-available;
+        background-color: #FF6600;
+      }
+
+      p {
+        margin-top: 20px;
+      }
+    }
+
+    .login-form-container {
+      float: left;
+
+      .login-button {
+        width: -webkit-fill-available;
+        width: -moz-available;
+        background-color: #169BD5;
+      }
+    }
+
+    .login-form-container, .register-form-container {
+
+      .login-button {
+        border: 0;
+      }
+
+      .with-button {
+        text-align: center !important;
+      }
+
+      .form-group {
+        text-align: left;
+      }
+
+      .forgot-password {
+        color: #039BE5;
+        text-align: left;
+        margin-top: -5px;
+        margin-bottom: 1rem;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      
+      .forgot-password:hover {
+        color: #0279C3;
+      }
+
+      .login-account-text {
+        margin-bottom: 30px;
+      }
+    }
   }
 }
