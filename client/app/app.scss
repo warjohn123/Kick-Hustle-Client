@@ -1,7 +1,8 @@
 @import "common/common";
+@import '~bootstrap/scss/bootstrap';
 
 .app {
   height: 100%;
-  background-color: $lightBgColor;
+  min-width: 320px;
 }
 

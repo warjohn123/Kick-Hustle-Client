@@ -1,0 +1,33 @@
+.login-form-container {
+  margin-top: 100px;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  width: 35%;
+
+  .login-button {
+    background-color: #169BD5;
+    width: 100px;
+  }
+
+  .forgot-password {
+    color: #039BE5;
+    text-align: left;
+    margin-top: -5px;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .forgot-password:hover {
+    color: #0279C3;
+  }
+
+  .login-account-text {
+    margin-bottom: 30px;
+  }
+}
