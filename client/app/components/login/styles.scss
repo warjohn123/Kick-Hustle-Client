@@ -7,14 +7,15 @@
     min-width: 320px;
     margin: auto;
     padding: 0 10px;
-    margin-top: 100px;
+    margin-top: 60px;
 
     .register-form-container {
       float: right;
+      margin-left: 10px;
 
       textarea {
         width: 400px;
-        height: 90px;
+        height: 130px;
         resize: none;
       }
 
@@ -25,10 +26,15 @@
       p {
         margin-top: 20px;
       }
+
+      .task-name {
+        margin-bottom: 45px;
+      }
     }
 
     .login-form-container {
       float: left;
+      margin-right: 10px;
 
       input {
         width: 300px;
@@ -40,7 +46,7 @@
     }
 
     .login-form-container, .register-form-container {
-      background-color: #efefef;
+      background-color: #f2f2f2;
 
       form {
         padding: 16px;
@@ -74,6 +80,10 @@
 
       .login-account-text {
         margin-bottom: 30px;
+      }
+
+      .register-account-text {
+        margin-bottom: 20px;
       }
     }
   }
