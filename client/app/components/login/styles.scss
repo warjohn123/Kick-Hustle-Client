@@ -41,6 +41,11 @@
     }
 
     .login-form-container, .register-form-container {
+      background-color: #efefef;
+
+      form {
+        padding: 16px;
+      }
 
       .login-button {
         border: 0;

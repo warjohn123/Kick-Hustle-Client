@@ -1,226 +1,501 @@
-
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+<header id="top-bar" class="navbar-fixed-top animated-header">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <div class="navbar-header">
+            <!-- responsive nav button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- /responsive nav button -->
 
-  <header class="masthead text-center text-white d-flex">
-    <div class="container my-auto">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h1 class="text-uppercase">
-            <strong>Your Favorite Source of Free Bootstrap Themes</strong>
-          </h1>
-          <hr>
+            <!-- logo -->
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <!-- /logo -->
         </div>
-        <div class="col-lg-8 mx-auto">
-          <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-      </div>
+        <!-- main menu -->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <div class="main-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"
+                           data-toggle="dropdown">Pages <span
+                                class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="404.html">404 Page</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"
+                           data-toggle="dropdown">Blog <span
+                                class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="blog-fullwidth.html">Blog Full</a>
+                                </li>
+                                <li><a href="blog-left-sidebar.html">Blog Left
+                                    sidebar</a></li>
+                                <li><a href="blog-right-sidebar.html">Blog Right
+                                    sidebar</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /main nav -->
     </div>
-  </header>
+</header>
 
-  <section class="bg-primary" id="about">
+
+<!--
+==================================================
+Slider Section Start
+================================================== -->
+<section id="hero-area">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">We've got what you need!</h2>
-          <hr class="light my-4">
-          <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="block wow fadeInUp" data-wow-delay=".3s">
+                    <!-- Slider -->
+                    <section class="cd-intro">
+                        <h1 class="wow fadeInUp animated cd-headline slide"
+                            data-wow-delay=".4s">
+                            <span>HI, MY NAME IS JONATHON & I AM A</span><br>
+                            <span class="cd-words-wrapper">
+                        <b class="is-visible">DESIGNER</b>
+                        <b>DEVELOPER</b>
+                        <b>FATHER</b>
+                    </span>
+                        </h1>
+                    </section> <!-- cd-intro -->
+                    <!-- /.slider -->
+                    <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
+                        With 10 years experience, I've occupied many roles
+                        including digital design director,<br> web designer and
+                        developer. This site showcases some of my work.
+                    </h2>
+                    <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green"
+                       data-wow-delay=".9s" href="#works" data-section="#works">View
+                        Works</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
+</section><!--/#main-slider-->
 
-  <section id="services">
+<!--
+==================================================
+About Section Start
+================================================== -->
+<section id="about">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">At Your Service</h2>
-          <hr class="my-4">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s"
+                     data-wow-duration="500ms">
+                    <h2>
+                        ABOUT ME
+                    </h2>
+                    <p>
+                        Hello, I’m a UI/UX Designer & Front End Developer from
+                        Victoria, Australia. I hold a master degree of Web
+                        Design from the World University.And scrambled it to
+                        make a type specimen book. It has survived not only five
+                        centuries
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Error, adipisci voluptatum repudiandae, natus
+                        impedit repellat aut officia illum at assumenda iusto
+                        reiciendis placeat. Temporibus, vero.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="block wow fadeInRight" data-wow-delay=".3s"
+                     data-wow-duration="500ms">
+                    <img src="images/about/about.jpg" alt="">
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+</section> <!-- /#about -->
+
+
+<!--
+==================================================
+Portfolio Section Start
+================================================== -->
+<section id="works" class="works">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Sturdy Templates</h3>
-            <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-          </div>
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Latest
+                Works</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s">
+                Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque
+                auctor neque nec urna. Nulla sit amet est. Aenean posuere <br>
+                tortor sed cursus feugiat, nunc augue blandit nunc, eu
+                sollicitudin urna dolor sagittis lacus.
+            </p>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Ready to Ship</h3>
-            <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
-          </div>
+        <div class="row">
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated portfolio-item"
+                        data-wow-duration="500ms" data-wow-delay="0ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-1.jpg"
+                             class="img-responsive" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-1.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Dew Drop
+                            </a>
+                        </h4>
+                        <p>
+                            Redesigne UI Concept
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated"
+                        data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-2.jpg"
+                             class="img-responsive" alt="this is a title">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-2.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Bottle Mockup
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated"
+                        data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-3.jpg"
+                             class="img-responsive" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-3.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Table Design
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated"
+                        data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-4.jpg"
+                             class="img-responsive" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-4.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Make Up elements
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated"
+                        data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-5.jpg"
+                             class="img-responsive" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-5.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Shoping Bag Concept
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <figure class="wow fadeInLeft animated"
+                        data-wow-duration="500ms" data-wow-delay="1200ms">
+                    <div class="img-wrapper">
+                        <img src="images/portfolio/item-6.jpg"
+                             class="img-responsive" alt="">
+                        <div class="overlay">
+                            <div class="buttons">
+                                <a rel="gallery" class="fancybox"
+                                   href="images/portfolio/item-6.jpg">Demo</a>
+                                <a target="_blank" href="single-portfolio.html">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <figcaption>
+                        <h4>
+                            <a href="#">
+                                Caramel Bottle
+                            </a>
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor.
+                        </p>
+                    </figcaption>
+                </figure>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Up to Date</h3>
-            <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="service-box mt-5 mx-auto">
-            <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-            <h3 class="mb-3">Made with Love</h3>
-            <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-
-  <section class="p-0" id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters popup-gallery">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="portfolio-box-caption-content">
-                <div class="project-category text-faded">
-                  Category
-                </div>
-                <div class="project-name">
-                  Project Name
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-    </div>
-  </section>
-
-  <section id="contact">
+</section> <!-- #works -->
+<!--
+==================================================
+Portfolio Section Start
+================================================== -->
+<section id="feature">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Let's Get In Touch!</h2>
-          <hr class="my-4">
-          <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+        <div class="section-heading">
+            <h1 class="title wow fadeInDown" data-wow-delay=".3s">Offer From
+                Me</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sed,<br> quasi dolores numquam dolor vero ex, tempora commodi
+                repellendus quod laborum.
+            </p>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-          <p>123-456-6789</p>
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInUp animated"
+                     data-wow-duration="500ms" data-wow-delay="300ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-flask-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInDown animated"
+                     data-wow-duration="500ms" data-wow-delay="600ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-lightbulb-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Well documented.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInDown animated"
+                     data-wow-duration="500ms" data-wow-delay="900ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-lightbulb-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Well documented.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInDown animated"
+                     data-wow-duration="500ms" data-wow-delay="1200ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-americanfootball-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Free updates</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInDown animated"
+                     data-wow-duration="500ms" data-wow-delay="1500ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-keypad-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Solid Support</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-xs-12">
+                <div class="media wow fadeInDown animated"
+                     data-wow-duration="500ms" data-wow-delay="1800ms">
+                    <div class="media-left">
+                        <div class="icon">
+                            <i class="ion-ios-barcode-outline"></i>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Simple Installation</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Voluptatum, sint.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-          <p>
-            <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
-          </p>
-        </div>
-      </div>
     </div>
-  </section>
+</section> <!-- /#feature -->
+
+
+<!--
+==================================================
+Call To Action Section Start
+================================================== -->
+<section id="call-to-action">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"
+                        data-wow-duration="500ms">SO WHAT YOU THINK ?</h1>
+                        <p class="wow fadeInDown" data-wow-delay=".5s"
+                           data-wow-duration="500ms">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Nobis,<br>possimus
+                            commodi, fugiat magnam temporibus vero magni
+                            recusandae? Dolore, maxime praesentium.</p>
+                        <a href="contact.html"
+                           class="btn btn-default btn-contact wow fadeInDown"
+                           data-wow-delay=".7s" data-wow-duration="500ms">Contact
+                            With Me</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--
+==================================================
+Footer Section Start
+================================================== -->
+<footer id="footer">
+    <div class="container">
+        <div class="col-md-8">
+            <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span>
+                Design and Developed by <a href="http://www.Themefisher.com"
+                                           target="_blank">Themefisher</a>. <br>
+                Get More
+                <a href="https://themefisher.com/free-bootstrap-templates/"
+                   target="_blank">
+                    Free Bootstrap Templates
+                </a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <!-- Social Media -->
+            <ul class="social">
+                <li>
+                    <a href="http://wwww.fb.com/themefisher" class="Facebook">
+                        <i class="ion-social-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://wwww.twitter.com/themefisher"
+                       class="Twitter">
+                        <i class="ion-social-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="Linkedin">
+                        <i class="ion-social-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://wwww.fb.com/themefisher"
+                       class="Google Plus">
+                        <i class="ion-social-googleplus"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer> <!-- /#footer -->
