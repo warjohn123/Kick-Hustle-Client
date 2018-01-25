@@ -2,11 +2,10 @@ import template from './template.html';
 import controller from './controller';
 import './styles.scss';
 
-let loginComponent = {
+let dashboardComponent = {
     bindings: {},
     template,
-    controller,
-    controllerAs: 'vm'
+    controller
 };
 
-export default loginComponent;
+export default dashboardComponent;

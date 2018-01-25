@@ -1,10 +1,12 @@
 import angular from 'angular';
 import Login from './login/';
-import Home from './homepage/'
+import Home from './homepage/';
+import Dashboard from './dashboard/'
 
 let componentModule = angular.module('app.components', [
     Login,
-    Home
+    Home,
+    Dashboard
 ])
 
     .name;

@@ -1,6 +1,14 @@
 class LoginController {
-    constructor() {
-        this.name = 'home';
+    constructor($state) {
+    	"ngInject";
+    	let vm = this;
+        vm.name = 'home';
+        vm.state = $state;
+    }
+
+    login() {
+    	console.log('hey');
+    	this.state.go('dashboard');
     }
 }
 
