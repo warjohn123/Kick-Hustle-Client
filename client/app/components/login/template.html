@@ -1,54 +1,64 @@
 <navbar></navbar>
 <div class="homepage-container">
     <div class="homepage-holder">
-        <div class="login-form-container text-center">
-            <form ng-submit="">
-                <h5 class="login-account-text">Log in to your account</h5>
 
-                <div class="form-group">
-                    <label for="loginEmail">Email address</label>
-                    <input id="loginEmail" class="form-control" type="email">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <div class="card login-form-container text-center">
+                    <div class="card-block">
+                        <form ng-submit="vm.login()">
+                            <h5 class="login-account-text">Log in to your account</h5>
+
+                            <div class="form-group">
+                                <label for="loginEmail">Email address</label>
+                                <input id="loginEmail" class="form-control" type="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="loginPassword">Password</label>
+                                <input class="form-control" id="loginPassword"
+                                       type="password">
+                            </div>
+                            <div class="forgot-password">
+                                Forgot password?
+                            </div>
+
+                            <div class="form-group with-button m-t-25">
+                                {{$ctrl}}
+                                <button type="submit" class="btn btn-primary login-button">
+                                    Log In
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
+            </div>
 
-                <div class="form-group">
-                    <label for="loginPassword">Password</label>
-                    <input class="form-control" id="loginPassword"
-                           type="password">
+            <div class="col-sm-6 col-xs-12">
+                <div class="card register-form-container text-center">
+                    <div class="card-block">
+                        <form>
+                            <h5 class="register-account-text">New here? Let's get
+                                started!</h5>
+
+                            <p>
+                                What do you need help with? Give this task a name,
+                            </p>
+
+                            <div class="form-group task-name">
+                                <textarea class="form-control" id="taskName"></textarea>
+                            </div>
+
+                            <div class="form-group with-button m-t-25">
+                                <button type="submit" ng-click="vm.register()" class="btn btn-primary login-button">
+                                    Next
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="forgot-password">
-                    Forgot password?
-                </div>
-
-                <div class="form-group with-button m-t-25">
-                    {{$ctrl}}
-                    <button type="submit" ng-click="vm.login()" class="btn btn-primary login-button">
-                        Log In
-                    </button>
-                </div>
-            </form>
-        </div>
-
-        <div class="register-form-container text-center">
-            <form ng-submit="">
-                <h5 class="register-account-text">New here? Let's get
-                    started!</h5>
-
-                <p>
-                    What do you need help with? Give this task a name,
-                </p>
-
-                <div class="form-group task-name">
-                    <textarea class="form-control" id="taskName"></textarea>
-                </div>
-
-                <div class="form-group with-button m-t-25">
-                    <button type="submit" class="btn btn-primary login-button">
-                        Next
-                    </button>
-                </div>
-            </form>
+            </div>
         </div>
     </div>
+    <footer-section></footer-section>
 </div>
-
-<footer-section></footer-section>

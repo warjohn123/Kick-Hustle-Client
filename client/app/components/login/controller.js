@@ -10,6 +10,11 @@ class LoginController {
     	console.log('hey');
     	this.state.go('dashboard');
     }
+
+    register() {
+        console.log('wew', this.state);
+        this.state.go('registration');
+    }
 }
 
 export default LoginController;

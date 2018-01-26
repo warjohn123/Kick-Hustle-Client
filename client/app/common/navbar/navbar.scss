@@ -3,11 +3,10 @@
 .navbar {
   height: auto;
   width: 100%;
-  background-color: $mediumLightGray;
+  //background-color: $mediumLightGray;
   padding: 1rem;
   justify-content: left !important;
   box-shadow: 0 1px 6px rgba(57, 73, 76, .35);
-  float: left;
 
   .navbar-container {
     max-width: 992px;
